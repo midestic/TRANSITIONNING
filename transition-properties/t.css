@@ -1,0 +1,14 @@
+div {
+    border: 1px solid bisque;
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+    background-color: darkcyan;
+    transition: border-radius 3s ease-in ,
+    background-color 3s ease-out;
+}
+
+div:hover {
+    border-radius: 200px;
+    background-color: chartreuse;
+}
